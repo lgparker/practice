@@ -20,5 +20,5 @@ N = int(input("Enter a positive integer: "))
 assert N > 0, "The entered value must be positive"
 
 print(f"The sum of natural numbers from 1 to {N}",
-      f"is {sum_multiples(N)}")
+      f"is {sum_multiples(N)} if considering only multiples of three or five.")
 
