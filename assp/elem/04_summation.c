@@ -1,4 +1,4 @@
-/* Elementary 5: Summation of numbers from 1 to N
+/* Elementary 4: Summation of numbers from 1 to N
 */
 
 #include <stdio.h>
