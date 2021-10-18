@@ -1,0 +1,19 @@
+.
+├── README.md
+├── assp
+│   └── elem
+│       ├── 01_helloworld.c
+│       ├── 01_helloworld.py
+│       ├── 02_greet.c
+│       ├── 02_greet.py
+│       ├── 03_exclusive_greet.c
+│       ├── 03_exclusive_greet.py
+│       ├── 04_summation.c
+│       ├── 04_summation.py
+│       ├── 05_sum_multiples.c
+│       ├── 05_sum_multiples.py
+│       ├── 06_sum_or_prod.c
+│       └── 06_sum_or_prod.py
+└── tree.txt
+
+2 directories, 14 files
