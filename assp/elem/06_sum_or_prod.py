@@ -22,7 +22,7 @@ N = int(input("Enter a positive integer: "))
 assert N > 0, "The entered value must be positive"
 
 choice = input("Compute the sum or product from 1 to N? (sum/product): ")
-assert choice in ["sum", "product"], "Must choose between 'sum' or 'prod'"
+assert choice in ["sum", "product"], "Must choose between 'sum' or 'product'"
 
 print(f"The {choice} of natural numbers from 1 to {N}",
       f"is {sum_or_prod(N,choice)}")
