@@ -6,7 +6,8 @@
 
 int main(void)
 {
-    unsigned long long int N, sum=0;
+    unsigned long long int N;
+    unsigned long long int sum = 0;
 
     printf("Enter a positive integer: ");
     scanf("%llu", &N);

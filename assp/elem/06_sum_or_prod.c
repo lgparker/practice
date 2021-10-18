@@ -6,7 +6,8 @@
 
 int main(void)
 {
-    unsigned long long int N, ans=0;
+    unsigned long long int N, ans;
+    //unsigned long long int ans = 0;
     char choice[7];
 
     printf("Enter a positive integer: ");
@@ -17,7 +18,7 @@ int main(void)
 
     if (strcmp(choice, "sum") == 0)
     {
-        unsigned long long int sum=1;
+        unsigned long long int sum = 1;
         for (int i = 2; i <= N; i++)
         {
             sum += i;
@@ -26,7 +27,7 @@ int main(void)
     }
     else if (strcmp(choice, "product") == 0)
     {
-        unsigned long long int prod=1;
+        unsigned long long int prod = 1;
         for (int i = 2; i <= N; i++)
         {
             prod = prod*i;
